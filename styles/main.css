@@ -11,11 +11,13 @@ h1 {
     font-family: 'Butterfly Kids', cursive; 
     color: rebeccapurple;
     font-weight: bold;
+    font-size: 1000%;
 }
 
-h4 {
+p {
     font-family: 'Butterfly Script', cursive;
     color: pink;
+    font-size: 100%;
 }
 
 .ideaBox {
