@@ -12,12 +12,16 @@ h1 {
     color: rebeccapurple;
     font-weight: bold;
     font-size: 1000%;
+    border-bottom: double;
+    border-color: darkgreen;
 }
 
 p {
     font-family: 'Butterfly Script', cursive;
-    color: pink;
+    color: orange;
     font-size: 100%;
+    border-bottom: double;
+    border-color: darkgreen;
 }
 
 .ideaBox {
@@ -26,8 +30,13 @@ p {
 
 }
 
+.para {
+    border-bottom: double;
+    border-color: darkgreen;
+}
+
 #clickMe {
-    background-color: pink;
+    background-color: orange;
     font-family: 'Bad Script', cursive;
     font-size: 100%;
     border-color: rebeccapurple;
