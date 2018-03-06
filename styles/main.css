@@ -11,16 +11,16 @@ h1 {
     font-family: 'Butterfly Kids', cursive; 
     color: rebeccapurple;
     font-weight: bold;
-    font-size: 1000%;
+    font-size: 100%;
     border-bottom: double;
     border-color: darkgreen;
     text-align: center;
 }
 
 p {
-    font-family: 'Butterfly Script', cursive;
+    font-family: 'Bad Script', cursive;
     color: orange;
-    font-size: 100%;
+    font-size: 30px;
     border-bottom: double;
     border-color: darkgreen;
     text-align: center;
@@ -28,6 +28,7 @@ p {
 
 .ideaBox {
     font-family: 'Bad Script', cursive;
+    font-size: 30px;
     margin-bottom: 30px;
     text-align: center;
 
@@ -46,10 +47,9 @@ p {
     color: rebeccapurple;
     border-style: solid;
     align-content: center;
-    position: absolute;
-    margin-left: 100px;
     height: 100px;
     width: 50vw;
+    margin: auto;
 }
 
 .myButton {
