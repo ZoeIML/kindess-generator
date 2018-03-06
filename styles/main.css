@@ -14,6 +14,7 @@ h1 {
     font-size: 1000%;
     border-bottom: double;
     border-color: darkgreen;
+    text-align: center;
 }
 
 p {
@@ -22,11 +23,13 @@ p {
     font-size: 100%;
     border-bottom: double;
     border-color: darkgreen;
+    text-align: center;
 }
 
 .ideaBox {
     font-family: 'Bad Script', cursive;
     margin-bottom: 30px;
+    text-align: center;
 
 }
 
@@ -46,7 +49,11 @@ p {
     position: absolute;
     margin-left: 100px;
     height: 100px;
-    width: 100px;
+    width: 50vw;
+}
+
+.myButton {
+    margin: auto;
 }
 
 
