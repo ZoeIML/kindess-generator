@@ -57,8 +57,9 @@ p {
     align-content: center;
     height: 100px;
     width: 50vw;
-    margin: auto;
-    float: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
