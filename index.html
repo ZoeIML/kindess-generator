@@ -1,5 +1,4 @@
-<!-- TO DO: fix button alignment CSS, mouseover color change button CSS / JS 
-    make title bigger
+<!-- TO DO: 
     add border -->
 
 <!DOCtype HTML> 
@@ -12,14 +11,23 @@
 <link href="https://fonts.googleapis.com/css?family=Bad+Script|Butterfly+Kids" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-    <div class="title">
-        <h1>Random Acts of Kindness</h1>
-        <p>Brighten someone's day with a Random Act of Kindness. Click ACT! below for ideas!</p>
+<br>
+<div class="container box">
+    <div class="row">
+        <div class="twelve columns" id="title">
+            <h1>Random Acts of Kindness</h1>
+            <p>
+                Brighten someone's day with a Random Act of Kindness. Click ACT below for ideas!
+            </p>
+        </div>
     </div>
     <div class="ideaBox para" id="seeMe">
     </div>
-    <div class="myButton"><button type="button" id="clickMe">Act!</button></div>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns"><button type="button" id="clickMe">Act</button></div>
+        </div>
+    </div>
 </div>
 
 <script src="js/main.js" type="text/javascript"></script>

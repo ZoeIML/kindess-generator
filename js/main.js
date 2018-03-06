@@ -33,15 +33,12 @@ var ranActs = [
     "Plant a tree",
     "Make a gift for someone",
     "Say please and thank you",
+    "Read to someone",
+    "Ask someone if you can do them a favour",
     "Donate a book you enjoyed to the library"
 ];
 
-//document.getElementById('clickMe').addEventListener("mouseover", colourChange)
 document.getElementById('clickMe').addEventListener("click", getAct);
-
-//function colourChange() {
-//
-//}
 
 var starter = 0;
 
