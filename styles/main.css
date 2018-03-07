@@ -20,16 +20,16 @@ h1 {
     font-weight: bold;
     font-size: 100px;
     border-bottom: double;
-    border-color: darkgreen;
+    border-color: orange;
     text-align: center;
 }
 
 p {
     font-family: 'Bad Script', cursive;
-    color: orange;
+    color: darkgreen;
     font-size: 25px;
     border-bottom: double;
-    border-color: darkgreen;
+    border-color: orange;
     text-align: center;
 }
 
@@ -38,13 +38,13 @@ p {
     font-size: 25px;
     margin-bottom: 30px;
     text-align: center;
-    color: orange;
+    color: rebeccapurple;
 
 }
 
 .para {
     border-bottom: double;
-    border-color: darkgreen;
+    border-color: orange;
 }
 
 #clickMe {
