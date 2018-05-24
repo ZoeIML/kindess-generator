@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 
 import Header from './src/components/Header'
 import Intro from './src/components/Intro'
+import ActButton from './src/components/ActButton'
 
 export default class App extends React.Component {
   render() {
@@ -10,6 +11,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <Header />
         <Intro />
+        <ActButton />
       </View>
     )
   }
