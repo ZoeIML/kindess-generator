@@ -1,11 +1,13 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
+import styles from './styles'
+
 class Header extends React.Component {
     render() {
         return (
-            <View>
-                <Text h1>Random Acts of Kindness Generator</Text>
+            <View style={styles.border}>
+                <Text>Random Acts of Kindness Generator</Text>
             </View>
         )
     }
