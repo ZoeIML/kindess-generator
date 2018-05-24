@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/Cellar/node/10.1.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js add react-native --exact
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/zoelisk/Library/Android/sdk/tools:/Users/zoelisk/Library/Android/sdk/tools/bin:/Users/zoelisk/Library/Android/sdk/platform-tools:/Users/zoelisk/Library/Android/sdk/tools:/Users/zoelisk/Library/Android/sdk/tools/bin:/Users/zoelisk/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.1.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {"name":"kindness","version":"0.0.1","private":true,"scripts":{"start":"node node_modules/react-native/local-cli/cli.js start"}}
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-native/-/react-native-0.55.4.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:133061:19)
+      at Object.onceWrapper (events.js:273:13)
+      at ClientRequest.emit (events.js:182:13)
+      at TLSSocket.emitTimeout (_http_client.js:698:34)
+      at Object.onceWrapper (events.js:273:13)
+      at TLSSocket.emit (events.js:182:13)
+      at TLSSocket.Socket._onTimeout (net.js:447:8)
+      at ontimeout (timers.js:427:11)
+      at tryOnTimeout (timers.js:289:5)
+      at listOnTimeout (timers.js:252:5)
