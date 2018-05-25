@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Button } from 'react-native'
+import { View, Text, Button } from 'react-native'
 
 // props is getAct function
 
@@ -21,7 +21,7 @@ export default class ActButton extends React.Component {
 
     showAct () {
         const act = this.props.getAct()
-        return <Text> {this.act} </Text>
+        return <Act act={act} />
     }
 
     showNothing () {
