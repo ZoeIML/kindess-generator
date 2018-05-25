@@ -3,8 +3,6 @@ import { View, Text, Button } from 'react-native'
 
 // import ActButton from '../ActButton'
 
-// getting props: getAct
-
 // import styles from './styles'
 
 export default class Act extends React.Component {
@@ -16,9 +14,10 @@ export default class Act extends React.Component {
 
     showAct () {
         const currentAct = this.props.getAct()
-        return currentAct
+        this.setState({
+            act: currentAct
+        })
     }
-
 
     render () {
         return (
