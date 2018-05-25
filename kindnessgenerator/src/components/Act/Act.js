@@ -1,15 +1,31 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, Button } from 'react-native'
 
-// getting props: act
+// import ActButton from '../ActButton'
+
+// getting props: getAct
 
 // import styles from './styles'
 
 export default class Act extends React.Component {
+    constructor (props) {
+        super(props)
+        this.state = { }
+        this.showAct = this.showAct.bind(this)
+    }
+
+    showAct () {
+        const currentAct = this.props.getAct()
+        return currentAct
+    }
+
+
     render () {
         return (
             <View>
-                <Text>{this.props.act}</Text>
+                <Button 
+                title="ACT!"
+                onPress={this.showAct}/>
             </View>
         )
     }

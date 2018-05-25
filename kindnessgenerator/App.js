@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 
 import Header from './src/components/Header'
 import Intro from './src/components/Intro'
-import ActButton from './src/components/ActButton'
+// import ActButton from './src/components/ActButton'
 import Act from './src/components/Act'
 
 import {getAct} from './src/utils/getAct'
@@ -18,7 +18,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <Header />
         <Intro />
-        <ActButton getAct={getAct} />
+        <Act getAct={getAct} />
       </View>
     )
   }
