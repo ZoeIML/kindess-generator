@@ -5,3 +5,7 @@ function getAct() {
     const act = randomActs[randomNo]
     return act
  }
+
+ module.exports = {
+     getAct
+ }
