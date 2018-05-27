@@ -29,5 +29,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffe4e1',
     alignItems: 'center',
     justifyContent: 'center',
-  },
+    borderWidth: 3,
+    borderStyle: 'solid',
+    borderColor: 'darkgreen',
+    marginTop: 20,
+    marginLeft: 2.5
+  }
 })
