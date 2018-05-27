@@ -24,7 +24,7 @@ export default class Act extends React.Component {
     render () {
         return (
             <View>
-                {this.state.isClicked ? <Text>{this.state.act}</Text> : <Text>NO ACT</Text>}
+                {this.state.isClicked ? <Text>{this.state.act}</Text> : <Text></Text>}
                 <Button 
                 title="ACT!"
                 onPress={this.showAct}/>
