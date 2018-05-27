@@ -26,7 +26,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffe4e1',
+    backgroundColor: '#fffff4',
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 3,
