@@ -1,19 +1,33 @@
-import React from 'react' 
-import { View, Text } from 'react-native'
+import React from 'react'
+import { View, Text, Button } from 'react-native'
 
-import Act from '../Act'
+// import styles from './styles'
 
-import styles from './styles'
-
-export default class ActBox extends React.Component {
+export default class Act extends React.Component {
     constructor (props) {
         super(props)
+        this.state = {
+            isClicked: false,
+            act: {}
+        }
+        this.showAct = this.showAct.bind(this)
+    }
+
+    showAct () {
+        const currentAct = this.props.getAct()
+        this.setState({
+            isClicked: true,
+            act: currentAct
+        })
     }
 
     render () {
         return (
             <View>
-                <Text>This is an act box</Text>
+                {this.state.isClicked ? <Text>{this.state.act}</Text> : <Text>NO ACT</Text>}
+                <Button 
+                title="ACT!"
+                onPress={this.showAct}/>
             </View>
         )
     }

@@ -21,7 +21,7 @@ export default class ActButton extends React.Component {
 
     showAct () {
         const act = this.props.getAct()
-        return act
+        return <View>{act}</View>
     }
 
     showNothing () {
