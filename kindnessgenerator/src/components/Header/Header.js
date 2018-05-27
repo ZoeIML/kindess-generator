@@ -7,7 +7,7 @@ class Header extends React.Component {
     render() {
         return (
             <View style={styles.border}>
-                <Text>Random Acts of Kindness Generator</Text>
+                <Text style={styles.title}>Random Acts of Kindness Generator</Text>
             </View>
         )
     }
