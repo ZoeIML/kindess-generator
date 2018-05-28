@@ -15,10 +15,8 @@ export default class App extends React.Component {
   render() {
     return (
       <Container style={styles.container}>
-      <Header>
+      <Content padder>
         <ActsHeader />
-      </Header>
-      <Content>
         <Intro />
         <ActBox getAct={getAct}/>
       </Content>

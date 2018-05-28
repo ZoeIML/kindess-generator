@@ -3,9 +3,10 @@
 import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
-    actButton: {
-        backgroundColor: 'rebeccapurple',
-        fontSize: 30,
-        fontWeight: 'bold'
+    container: {
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'space-evenly',
+        alignItems: 'center'
     }
 })
