@@ -1,5 +1,6 @@
 import React from 'react'
-import { View, Text, Button } from 'react-native'
+// import { View, Text } from 'react-native'
+import { Container, Button, Text } from 'native-base'
 
 import styles from './styles'
 import Act from '../Act'
@@ -24,14 +25,14 @@ export default class ActBox extends React.Component {
 
     render () {
         return (
-            <View>
-                {this.state.isClicked ? <Act act={this.state.act}/> : <Text></Text>}
+            <Container>
+                {this.state.isClicked ? <Act act={this.state.act}/> : <Container></Container>}
                 <Button
-                // style={styles.actButton}
                 color='orange'
-                title="ACT!"
-                onPress={this.showAct}/>
-            </View>
+                onPress={this.showAct}>
+                    <Text>ACT!</Text>
+                </Button>
+            </Container>
         )
     }
 }
