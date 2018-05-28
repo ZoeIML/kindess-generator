@@ -27,8 +27,7 @@ export default class ActBox extends React.Component {
         return (
             <Container>
                 {this.state.isClicked ? <Act act={this.state.act}/> : <Container></Container>}
-                <Button
-                color='orange'
+                <Button dark
                 onPress={this.showAct}>
                     <Text>ACT!</Text>
                 </Button>
