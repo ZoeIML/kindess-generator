@@ -6,7 +6,7 @@ import styles from './styles'
 class Header extends React.Component {
     render() {
         return (
-            <View style={styles.border}>
+            <View style={styles.container}>
                 <Text style={styles.title}>Random Act of Kindness</Text>
             </View>
         )

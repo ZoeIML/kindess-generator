@@ -3,10 +3,12 @@
 import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
-  border: {
-    borderStyle: 'solid',
-    borderColor: 'orange'
-  },
+  container: {
+    borderBottomWidth: 5,
+    borderBottomColor: 'orange',
+    paddingBottom: 10,
+    paddingTop: 10
+    },
   title:{
     color: 'rebeccapurple',
     fontWeight: 'bold',

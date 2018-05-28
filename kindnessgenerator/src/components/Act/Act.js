@@ -8,7 +8,10 @@ export default class Act extends React.Component {
         return (
             <Container>
             <Content>
-                <Text style={styles.text}>{this.props.act}</Text>
+                <Text 
+                    style={styles.text}>
+                    {this.props.act}
+                </Text>
             </Content>
             </Container>
         )
