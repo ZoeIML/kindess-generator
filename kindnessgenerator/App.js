@@ -1,8 +1,7 @@
-import React from 'react';
-// import { View } from 'react-native'
-import { Container, Content } from 'native-base'
+import React from 'react'
+import { Container, Content, Header } from 'native-base'
 
-import Header from './src/components/Header'
+import ActsHeader from './src/components/ActsHeader'
 import Intro from './src/components/Intro'
 import ActBox from './src/components/ActBox'
 import styles from './styles'
@@ -16,8 +15,10 @@ export default class App extends React.Component {
   render() {
     return (
       <Container style={styles.container}>
+      <Header>
+        <ActsHeader />
+      </Header>
       <Content>
-        <Header />
         <Intro />
         <ActBox getAct={getAct}/>
       </Content>
