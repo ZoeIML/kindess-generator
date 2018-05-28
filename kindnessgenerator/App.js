@@ -1,5 +1,6 @@
 import React from 'react';
-import { Text, View } from 'react-native'
+// import { View } from 'react-native'
+import { Container, Content } from 'native-base'
 
 import Header from './src/components/Header'
 import Intro from './src/components/Intro'
@@ -14,11 +15,13 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <View style={styles.container}>
+      <Container style={styles.container}>
+      <Content>
         <Header />
         <Intro />
         <ActBox getAct={getAct}/>
-      </View>
+      </Content>
+      </Container>
     )
   }
 }
