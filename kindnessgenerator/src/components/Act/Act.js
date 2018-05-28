@@ -1,14 +1,16 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { Container, Content, Text } from 'native-base'
 
 import styles from './styles'
 
 export default class Act extends React.Component {
     render () {
         return (
-            <View>
+            <Container>
+            <Content>
                 <Text style={styles.text}>{this.props.act}</Text>
-            </View>
+            </Content>
+            </Container>
         )
     }
 }
