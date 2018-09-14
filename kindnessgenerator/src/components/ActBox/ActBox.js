@@ -1,9 +1,10 @@
 import React from 'react'
 // import { Button, Text, View } from 'react-native'
-import { Button, Container, Text } from 'native-base'
+import { Button, Container, Text, Content } from 'native-base'
 
 import styles from './styles'
 import Act from '../Act'
+// import ActBtn from '../ActBtn'
 
 export default class ActBox extends React.Component {
     constructor (props) {
@@ -26,12 +27,17 @@ export default class ActBox extends React.Component {
     render () {
         return (
             <Container style={styles.container}>
-                {this.state.isClicked ? <Act act={this.state.act}/> : <Text></Text>}
+                <Content>
+                    {this.state.isClicked ? <Act act={this.state.act}/> : <Text></Text>}
+                </Content>
+                <Content>
                 <Button dark
-                onPress={this.showAct}>
-                <Text>ACT!</Text>
+                    onPress={this.showAct}>
+                    <Text>ACT!</Text>
                 </Button>
+                </Content>
             </Container>
+
         )
     }
 }
